@@ -1,0 +1,16 @@
+
+---
+
+- name: Install packages 
+  package:
+        name: "{{ packages }}"
+  vars:
+     packages:
+     - strace
+     - procps-ng 
+     - traceroute
+     - nmap
+     - sysstat
+     - net-tools
+
+ 

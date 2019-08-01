@@ -1,0 +1,13 @@
+---
+
+
+
+
+
+- hosts:  all 
+  gather_facts: false
+  ignore_errors: false
+  connection: local
+  serial: 1
+  roles:
+    -  perftools 
