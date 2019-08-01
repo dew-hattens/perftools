@@ -68,3 +68,7 @@
 - name: Install rdmsr 
   command: bash "{{ role_path }}/files/rdmsr.sh"
   tags: rdmsr
+
+- name: Install pcstat 
+  command: bash "{{ role_path }}/files/pcstat.sh"
+  tags: pcstat 
