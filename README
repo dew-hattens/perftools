@@ -1,3 +1,20 @@
 Installation of performance tools
+---------------------------------
+
+Installation of various known performance tools 
 
 
+PreRequistes
+------------
+
+yum install git ansible
+
+Repo Download
+-------------
+
+git clone https://github.com/dew-hattens/perftools.git
+
+Installation
+------------
+
+# ansible-playbook -i inventory perftools.yml
