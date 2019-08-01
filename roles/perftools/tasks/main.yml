@@ -16,6 +16,7 @@
      - dstat 
      - oprofile 
      - valgrind 
+     - kdesdk-kcachegrind 
      - binutils 
      - nmap
      - sysstat
@@ -36,5 +37,30 @@
      - hping3
      - iperf
      - mtr
+     - python
+     - python-devel
+     - python-pip
+     - byacc 
+     - flex 
+     - ncurses 
+     - ncurses-devel 
 
- 
+- name: Install pip with upgrade 
+  pip: 
+     name: pip  
+     extra_args: --upgrade
+  
+
+- name: Install pip packages
+  pip:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - pgen 
+    - memprof 
+
+
+
+- name: Install tiptop
+  command: bash "{{ role_path }}/files/tiptop.sh"
+  tags: tiptop
