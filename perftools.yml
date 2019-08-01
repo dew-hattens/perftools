@@ -6,7 +6,7 @@
 
 - hosts:  all 
   gather_facts: false
-  ignore_errors: false
+  ignore_errors: true 
   connection: local
   serial: 1
   roles:
