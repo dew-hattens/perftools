@@ -6,11 +6,35 @@
         name: "{{ packages }}"
   vars:
      packages:
+     - epel-release 
      - strace
      - procps-ng 
      - traceroute
+     - tcpdump
+     - util-linux 
+     - lsof 
+     - dstat 
+     - oprofile 
+     - valgrind 
+     - binutils 
      - nmap
      - sysstat
      - net-tools
+     - iproute
+     - ltrace
+     - iptraf
+     - ethtool
+     - iotop
+     - blktrace
+     - perf
+     - coreutils
+     - hdparm
+     - fio
+     - httpd-tools 
+     - openssl
+     - iputils
+     - hping3
+     - iperf
+     - mtr
 
  
