@@ -4,6 +4,18 @@ Installation of performance tools
 Installation of various known performance tools 
 
 
+Author
+------
+
+Martin Dew-Hattens
+
+
+License
+-------
+
+Non Required
+
+
 PreRequistes
 ------------
 
@@ -18,3 +30,7 @@ Installation
 ------------
 
 # ansible-playbook -i inventory perftools.yml
+
+
+
+
